@@ -1,0 +1,43 @@
+object FormCustomView: TFormCustomView
+  StyleName = 'StyleBookWindows10'
+  Left = 959
+  Top = 299
+  Caption = '  '
+  ClientHeight = 291
+  ClientWidth = 450
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  Left = 959
+  Top = 299
+  DesignerMasterStyle = 0
+  object TimerMessage: TTimer
+    Enabled = False
+    Interval = 3000
+    OnTimer = TimerMessageTimer
+    Left = 24
+    Top = 16
+  end
+  object StatusBar: TStatusBar
+    Position.Y = 269.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 450.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object TextMessages: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 450.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+    end
+  end
+end
