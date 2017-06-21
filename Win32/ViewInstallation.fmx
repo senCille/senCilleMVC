@@ -1,0 +1,967 @@
+object InstallationView: TInstallationView
+  Left = 440
+  Top = 187
+  ActiveControl = BtnModify
+  BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
+  Caption = 'Instalaci'#243'n de la Aplicaci'#243'n'
+  ClientHeight = 453
+  ClientWidth = 759
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  Left = 440
+  Top = 187
+  DesignerMasterStyle = 1
+  object LayoutRoot: TLayout
+    Align = Client
+    Size.Width = 759.000000000000000000
+    Size.Height = 453.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object PanelEdit: TPanel
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 453.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object TabControl: TTabControl
+        Align = Client
+        FullSize = True
+        Size.Width = 640.000000000000000000
+        Size.Height = 453.000000000000000000
+        Size.PlatformDefault = False
+        TabIndex = 0
+        TabOrder = 1
+        TabPosition = Top
+        object TabEmpresa: TTabItem
+          CustomIcon = <
+            item
+            end>
+          TextSettings.Font.Size = 13.000000000000000000
+          TextSettings.Font.Style = [fsBold]
+          StyledSettings = [Family, FontColor]
+          IsSelected = True
+          Size.Width = 320.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'Datos de la Instalaci'#243'n'
+          ExplicitSize.cx = 320.000000000000000000
+          ExplicitSize.cy = 26.000000000000000000
+          object EditDS_EMPRESA: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            Position.X = 129.000000000000000000
+            Position.Y = 116.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect20: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditDS_BUSINESS: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 17
+            Position.X = 129.000000000000000000
+            Position.Y = 137.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect21: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditID_FISCAL: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            Position.X = 129.000000000000000000
+            Position.Y = 157.000000000000000000
+            Size.Width = 115.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect18: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditTELEFONO_2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 22
+            Position.X = 220.000000000000000000
+            Position.Y = 178.000000000000000000
+            Size.Width = 87.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect11: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditTELEFONO_1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 18
+            Position.X = 129.000000000000000000
+            Position.Y = 178.000000000000000000
+            Size.Width = 87.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect12: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditEMAIL: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 7
+            Position.X = 129.000000000000000000
+            Position.Y = 200.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect19: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditWEB_ADDRESS: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 23
+            Position.X = 129.000000000000000000
+            Position.Y = 223.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect1: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditDIRECCION_1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 1
+            Position.X = 129.000000000000000000
+            Position.Y = 244.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect23: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditDIRECCION_2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 5
+            Position.X = 129.000000000000000000
+            Position.Y = 265.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect22: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditPOBLACION: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            Position.X = 129.000000000000000000
+            Position.Y = 286.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect14: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditCOD_POSTAL: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            Position.X = 336.000000000000000000
+            Position.Y = 308.000000000000000000
+            Size.Width = 62.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect24: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object Label7: TLabel
+            Position.X = 252.000000000000000000
+            Position.Y = 309.000000000000000000
+            Size.Width = 87.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'C'#243'digo Postal'
+          end
+          object EditPROVINCIA: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            Position.X = 129.000000000000000000
+            Position.Y = 308.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect13: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object EditPAIS: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            Position.X = 129.000000000000000000
+            Position.Y = 329.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect15: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object Label6: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 330.000000000000000000
+            Size.Width = 35.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Pa'#237's'
+          end
+          object Label51: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 309.000000000000000000
+            Size.Width = 63.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Provincia'
+          end
+          object Label4: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 287.000000000000000000
+            Size.Width = 67.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Poblaci'#243'n'
+          end
+          object Label3: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 244.000000000000000000
+            Size.Width = 64.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Direcci'#243'n'
+          end
+          object Label8: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 223.000000000000000000
+            Size.Width = 103.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Web'
+          end
+          object Label183: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 202.000000000000000000
+            Size.Width = 42.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'email'
+          end
+          object Label48: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 180.000000000000000000
+            Size.Width = 65.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Tel'#233'fonos'
+          end
+          object Label9: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 159.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'CIF/NIF/DNI'
+          end
+          object Label38: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 138.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Raz'#243'n Social'
+          end
+          object Label2: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 117.000000000000000000
+            Size.Width = 57.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Nombre'
+          end
+          object Label20: TLabel
+            Position.X = 18.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 92.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Serial Number'
+          end
+          object EditSN_PRODUCT: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            Position.X = 129.000000000000000000
+            Position.Y = 7.000000000000000000
+            Size.Width = 269.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect2: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object Label33: TLabel
+            Position.X = 17.000000000000000000
+            Position.Y = 69.000000000000000000
+            Size.Width = 105.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Fecha de Registro'
+          end
+          object Label21: TLabel
+            Position.X = 477.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 68.000000000000000000
+            Size.Height = 16.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.WordWrap = False
+            Text = 'Versi'#243'n DB'
+          end
+          object EditVERSION_DB: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            Position.X = 552.000000000000000000
+            Position.Y = 7.000000000000000000
+            Size.Width = 65.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            object GlowEffect3: TGlowEffect
+              Softness = 0.400000005960464500
+              GlowColor = claGray
+              Opacity = 0.899999976158142100
+              Enabled = False
+            end
+          end
+          object Label12: TLabel
+            Position.X = 19.000000000000000000
+            Position.Y = 30.000000000000000000
+            Size.Width = 105.000000000000000000
+            Size.Height = 13.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Periodo Activo'
+          end
+          object EditDTE_INI_REG: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            Position.X = 130.000000000000000000
+            Position.Y = 28.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object EditDTE_END_REG: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 6
+            Position.X = 258.000000000000000000
+            Position.Y = 28.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object BtnNewSerialN: TButton
+            Anchors = [akRight, akBottom]
+            Cursor = crHandPoint
+            Position.X = 1030.000000000000000000
+            Position.Y = 424.000000000000000000
+            Size.Width = 179.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = 'Nuevo SERIAL NUMBER'
+            object BlurEffect3: TBlurEffect
+              Softness = 0.300000011920929000
+              Enabled = False
+            end
+          end
+          object BtnGetRegData: TButton
+            Anchors = [akRight, akBottom]
+            Cursor = crHandPoint
+            Position.X = 1030.000000000000000000
+            Position.Y = 464.000000000000000000
+            Size.Width = 179.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            Text = 'Refrescar Datos de Registro'
+            object BlurEffect4: TBlurEffect
+              Softness = 0.300000011920929000
+              Enabled = False
+            end
+          end
+          object BtnDeregistry: TButton
+            Anchors = [akRight, akBottom]
+            Cursor = crHandPoint
+            Position.X = 1030.000000000000000000
+            Position.Y = 504.000000000000000000
+            Size.Width = 179.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            Text = 'Desregistrar la Instalaci'#243'n'
+            object BlurEffect6: TBlurEffect
+              Softness = 0.300000011920929000
+              Enabled = False
+            end
+          end
+          object EditDTE_INSTALLATION: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            Position.X = 130.000000000000000000
+            Position.Y = 68.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object CheckNEWS_LETTERS: TCheckBox
+            Position.X = 20.000000000000000000
+            Position.Y = 354.000000000000000000
+            Size.Width = 365.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 19
+            Text = 'Deseo Recibir el News Letter Corporativo de senCille.'
+          end
+          object CheckOUR_ADVERTISING: TCheckBox
+            Position.X = 20.000000000000000000
+            Position.Y = 372.000000000000000000
+            Size.Width = 421.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 20
+            Text = 'No me opongo a recibir publicidad propia de senCille.'
+          end
+          object CheckOFFERS: TCheckBox
+            Position.X = 20.000000000000000000
+            Position.Y = 389.000000000000000000
+            Size.Width = 413.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 21
+            Text = 'No me opongo a recibir ofertas dirigidas de sus productos.'
+          end
+        end
+        object TabConfigurationes: TTabItem
+          CustomIcon = <
+            item
+            end>
+          TextSettings.Font.Size = 13.000000000000000000
+          TextSettings.Font.Style = [fsBold]
+          StyledSettings = [Family, FontColor]
+          IsSelected = False
+          Size.Width = 320.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'Configuraciones'
+          ExplicitSize.cx = 320.000000000000000000
+          ExplicitSize.cy = 26.000000000000000000
+        end
+      end
+    end
+    object PnlBtn: TPanel
+      Align = Right
+      Position.X = 640.000000000000000000
+      Size.Width = 119.000000000000000000
+      Size.Height = 453.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object BtnModify: TButton
+        Cursor = crHandPoint
+        Position.X = 6.000000000000000000
+        Position.Y = 42.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '&Modificar'
+        object BlurEffect5: TBlurEffect
+          Softness = 0.300000011920929000
+          Enabled = False
+        end
+      end
+      object BtnAccept: TButton
+        Anchors = [akRight, akBottom]
+        Cursor = crHandPoint
+        Position.X = 6.000000000000000000
+        Position.Y = 387.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Ac&eptar'
+        object BlurEffect1: TBlurEffect
+          Softness = 0.300000011920929000
+          Enabled = False
+        end
+      end
+      object BtnCancel: TButton
+        Anchors = [akRight, akBottom]
+        Cursor = crHandPoint
+        Position.X = 6.000000000000000000
+        Position.Y = 359.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = '&Cancelar'
+        object BlurEffect2: TBlurEffect
+          Softness = 0.300000011920929000
+          Enabled = False
+        end
+      end
+      object ImageHelp: TImage
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              069449444154484B7D556B6C14D715FEE6CE63671F5E7B6DC31AD6604CC0D806
+              27869062B70E314E0AAAF27E4898E6A556446A22F547A534CA9FA83FAA2651D4
+              4815B401A5B502448953FE44F441228598621C08420971650C26C12FEC98F5EE
+              7A9FB333B33B8F9E3BC669A2A09CD1D5ACEEDEFB9DEF9CF39D33027EC0FAFAFA
+              5A0DA3B44710D02349E2A69A9A9A30DF4FA55239D3B44719C380CF27F7EFDDBB
+              77C4BB7013BBA98323478EAD33ADD4EB05AD78FFED9BDB8542BE80E9E929C4E3
+              F3DEFFD1E87234343420180CE1C2F0B01B0C063F9055DFF34FEFD973C93BF02D
+              FB9E83C3EFFEFD97AE6BED5FBF6E7DE0F4E020D20B69C462F588D645E1F7FB51
+              2E5B584867109FBF8E6C2A85EAEA08EEDAB1035727270DABECFEE6174FEC3E78
+              03CAB3EF38E87BE7E88BE94CE2E5A6C646E1E38193D8B6751B7CAA0AD3346059
+              0ECA5619E55209A5721925FA2D31916EB9B87A751C3D3D7762FAEBB81B0804FE
+              F0CC938FBFB488F82D077DEFBCF754622175A861659D30327209AD4D1BA0E945
+              545545D07EEB46D44597C1AF0608CE85A66998989CC6A94FCE22934E43251269
+              7AB76D6AC5F574DAADAAACFCD5338FEF7993E37A0EF61D39D228DAF67F1B1B1A
+              42438367B03A1623861656ADAAC7BD3BEF46C92C5104161C025FBC440F132049
+              12DEEE3F8A6B335F83911274C34077CF76CC4C4EE87238BC79EFEEDD638C5F30
+              F5D22B1B36B6850607CFA26E799498EB842262D7DDDD28105B93D2623B0E04C2
+              775D977EDB5E2D4CC344EFA30FC3A17DCBB6A1FA7C383D74061BDAB7F817B2FA
+              AB1C5B7CE5ADB7D614D3D5075529CFB45C81F26C11B880CDB7B591B3655EDE5D
+              42962519F389240CD344C01F80434E1C4216298A783C8E856C9E6A55E225812A
+              CB50C2E1A6BB7A761E6546BED4BBA5A34E9C189F042361134158C47675FD4A8F
+              154F08131826A7AFE110A5E3E8FBFF862C4B1E3837DBB6100A05BDC818159DDF
+              1F9F9A46B4B696E58D622FB35CABDB4FA1993CE41267CB031031F6E538462E8E
+              62626A0AB9421EA7CF9CC3E45C124C123DC73C6D9C317794C9E6C04489EAC268
+              89C864720892D39220EC909822B52AC1000AA4ED5065A557405162181EBD8C39
+              6AAC6C4E239E947702EDFCD1ED78E2B1FB91A35472C6DC1C7A1FFFF83F88AD88
+              51EA54529A8AD4EC2C9164A42EA599314BAED27279B83C3DA09A13838266606A
+              668E2E0BA8ACAAA45585AECE6D78F2D107C8619E583B1E38691E7FDC7F103535
+              CBA9F02ED21409F1A37A29C865B37066E796315D2BBA3215C5A646E2D2D37503
+              F3C9346445F966852A2AD0FBC8BDC8E472DF802B8A0FAFFFF94DE43413E17018
+              9222D3E80892082C18E5124499C1A28715F2A94C900E9468D3B61D4F0D8A4FA6
+              42CA9064C5D3FA166AB46251F7A4CA33E35709FC8DBFC1B05D446A6B217222A4
+              B20A22C249168B454422355800E6996E68A3899969D4AE8C21AF153DD9497458
+              2207DC89484E6A23555406C753197738468A739884CAEA1A88545C99F6025447
+              85C4C249D6AD5A85DC4212C5827E59DCB4756B3DA5E19E1A8A622E9EF452B208
+              BEF8E697B8E3040D36C7B23D099E1FBE083558410E49399473263284A837B865
+              69F236353522914C606E76E6303305B77FF4E2A8DDD2DA4C23C1F01889A4F3A5
+              48B8FC2214C1AEEE3BB176ED1A746DBB03DB7FF263721CF0FA8113A822728CCE
+              97898049F3ABAD6503FE75FCB803477C571C3D772EBBB6B9B54580B3A9A5B999
+              BA75018AC7DEE745C02FDED7DDE9757089B46FD06A8845F1F9C89837E48201D5
+              AB8B4D1320430ABB75631366AF4D21311F3FF6DE5F0FBCE1CD2230F7C58F4E9D
+              CA47ABC3A80C53A8946B26523F8822245A1A29CB71688470A394F071E2D00A57
+              8416D3448FA69B08A90AD690F3E327077458FEDFF2E37CA0E3D2850BD98D6DAD
+              93E7CF7FFEC8CF1F7B48B81E4FC0112452458806981F495256FDF25A721EF21A
+              EEC3814FA806212F42832628CFBBE496B1BDE336EC3B70C0951DFBB9F7FB0F9D
+              E0D8DEB85EB29DF73DF8BCE35AAFFDFAD96705BD0C0C5F9942DD8A15D45041F8
+              48F73AD5C8B1CB9477D51B6A79AD8054FC3A9A1B63888414ECFBCB019794FBBB
+              8FFE79ECF73720172358B2AB57C6CEAC6E6CFC6AE0C4895DB208E5E19FFD14AE
+              6DD0473E4D0A4B40E073887A21359F84609B884542686F5983A15327B1FFF0DB
+              BA02F7B9810F3FF8D30D38CFBE13C192757575AD2D9AE66B86A63DD4D1D12176
+              7676E09675B7107BFE3D037D2A19C627C671F6D34FF1C517C3AEC3D83F02B2FC
+              C2D0D0D0954584FFDB4D1D2C597B7BFBFA92E3F4DAA6790F09BE5912D932BE6F
+              5976925E9715493AE9AA6AFFC8679F5DE6FBDF37E07F72AF00584E279C600000
+              000049454E44AE426082}
+            FileName = 'C:\views\senCille\Images\A_Comunes\Inmediate Help 24.png'
+          end>
+        Anchors = [akTop, akRight]
+        Cursor = crHandPoint
+        Position.X = 86.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 24.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object cdsInstallation: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 689
+    Top = 96
+    object cdsInstallationCD_INSTALLATION: TIntegerField
+      FieldName = 'CD_INSTALLATION'
+      Origin = 'CD_INSTALLATION'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object cdsInstallationSERIAL_NUMBER: TWideStringField
+      FieldName = 'SERIAL_NUMBER'
+      Origin = 'SERIAL_NUMBER'
+      Size = 32
+    end
+    object cdsInstallationDTT_MODIFY: TSQLTimeStampField
+      FieldName = 'DTT_MODIFY'
+      Origin = 'DTT_MODIFY'
+      Required = True
+    end
+    object cdsInstallationCD_USER: TWideStringField
+      FieldName = 'CD_USER'
+      Origin = 'CD_USER'
+      Required = True
+      Size = 12
+    end
+    object cdsInstallationDTE_INSTALLATION: TSQLTimeStampField
+      FieldName = 'DTE_INSTALLATION'
+      Origin = 'DTE_INSTALLATION'
+    end
+    object cdsInstallationDIGITALLY_SIGNED: TWideStringField
+      FieldName = 'DIGITALLY_SIGNED'
+      Origin = 'DIGITALLY_SIGNED'
+      Size = 50
+    end
+    object cdsInstallationDTE_INI_REG: TWideStringField
+      FieldName = 'DTE_INI_REG'
+      Origin = 'DTE_INI_REG'
+      Size = 10
+    end
+    object cdsInstallationDTE_END_REG: TWideStringField
+      FieldName = 'DTE_END_REG'
+      Origin = 'DTE_END_REG'
+      Size = 10
+    end
+    object cdsInstallationVERSION_DB: TWideStringField
+      FieldName = 'VERSION_DB'
+      Origin = 'VERSION_DB'
+      Required = True
+      Size = 5
+    end
+    object cdsInstallationACCESS_COUNTER: TIntegerField
+      FieldName = 'ACCESS_COUNTER'
+      Origin = 'ACCESS_COUNTER'
+      Required = True
+    end
+    object cdsInstallationEMAIL: TWideStringField
+      FieldName = 'EMAIL'
+      Origin = 'EMAIL'
+      Size = 120
+    end
+    object cdsInstallationNOMBRE: TWideStringField
+      FieldName = 'NOMBRE'
+      Origin = 'NOMBRE'
+      Size = 100
+    end
+    object cdsInstallationDS_BUSINESS: TWideStringField
+      FieldName = 'DS_BUSINESS'
+      Origin = 'DS_BUSINESS'
+      Size = 100
+    end
+    object cdsInstallationDIRECCION_1: TWideStringField
+      FieldName = 'DIRECCION_1'
+      Origin = 'DIRECCION_1'
+      Size = 100
+    end
+    object cdsInstallationDIRECCION_2: TWideStringField
+      FieldName = 'DIRECCION_2'
+      Origin = 'DIRECCION_2'
+      Size = 100
+    end
+    object cdsInstallationPOBLACION: TWideStringField
+      FieldName = 'POBLACION'
+      Origin = 'POBLACION'
+      Size = 50
+    end
+    object cdsInstallationPROVINCIA: TWideStringField
+      FieldName = 'PROVINCIA'
+      Origin = 'PROVINCIA'
+      Size = 50
+    end
+    object cdsInstallationPAIS: TWideStringField
+      FieldName = 'PAIS'
+      Origin = 'PAIS'
+      Size = 50
+    end
+    object cdsInstallationCOD_POSTAL: TWideStringField
+      FieldName = 'COD_POSTAL'
+      Origin = 'COD_POSTAL'
+      Size = 10
+    end
+    object cdsInstallationID_FISCAL: TWideStringField
+      FieldName = 'ID_FISCAL'
+      Origin = 'ID_FISCAL'
+      Size = 25
+    end
+    object cdsInstallationTELEFONO_1: TWideStringField
+      FieldName = 'TELEFONO_1'
+      Origin = 'TELEFONO_1'
+      Size = 15
+    end
+    object cdsInstallationTELEFONO_2: TWideStringField
+      FieldName = 'TELEFONO_2'
+      Origin = 'TELEFONO_2'
+      Size = 15
+    end
+    object cdsInstallationWEB_ADDRESS: TWideStringField
+      FieldName = 'WEB_ADDRESS'
+      Origin = 'WEB_ADDRESS'
+      Size = 100
+    end
+    object cdsInstallationNEWS_LETTER: TWideStringField
+      FieldName = 'NEWS_LETTER'
+      Origin = 'NEWS_LETTER'
+      Required = True
+      Size = 1
+    end
+    object cdsInstallationOUR_ADVERTISING: TWideStringField
+      FieldName = 'OUR_ADVERTISING'
+      Origin = 'OUR_ADVERTISING'
+      Required = True
+      Size = 1
+    end
+    object cdsInstallationOFFERS: TWideStringField
+      FieldName = 'OFFERS'
+      Origin = 'OFFERS'
+      Required = True
+      Size = 1
+    end
+    object cdsInstallationCOMMUNICATE_BY: TWideStringField
+      FieldName = 'COMMUNICATE_BY'
+      Origin = 'COMMUNICATE_BY'
+      Required = True
+      Size = 1
+    end
+    object cdsInstallationID_ACTIVATION: TWideStringField
+      FieldName = 'ID_ACTIVATION'
+      Origin = 'ID_ACTIVATION'
+      Size = 50
+    end
+  end
+  object BindSourceDB: TBindSourceDB
+    DataSet = cdsInstallation
+    ScopeMappings = <>
+    Left = 689
+    Top = 144
+  end
+  object BindingsList: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 689
+    Top = 192
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'TELEFONO_2'
+      Control = EditTELEFONO_2
+      Track = False
+    end
+    object LinkControlToField4: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'POBLACION'
+      Control = EditPOBLACION
+      Track = False
+    end
+    object LinkControlToField5: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DIRECCION_2'
+      Control = EditDIRECCION_2
+      Track = False
+    end
+    object LinkControlToField7: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DIRECCION_1'
+      Control = EditDIRECCION_1
+      Track = False
+    end
+    object LinkControlToField11: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'EMAIL'
+      Control = EditEMAIL
+      Track = False
+    end
+    object LinkControlToField12: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'COD_POSTAL'
+      Control = EditCOD_POSTAL
+      Track = False
+    end
+    object LinkControlToField21: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ID_FISCAL'
+      Control = EditID_FISCAL
+      Track = False
+    end
+    object LinkControlToField24: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'PAIS'
+      Control = EditPAIS
+      Track = False
+    end
+    object LinkControlToField25: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'PROVINCIA'
+      Control = EditPROVINCIA
+      Track = False
+    end
+    object LinkControlToField27: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'WEB_ADDRESS'
+      Control = EditWEB_ADDRESS
+      Track = False
+    end
+    object LinkControlToField28: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'TELEFONO_1'
+      Control = EditTELEFONO_1
+      Track = False
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'NOMBRE'
+      Control = EditDS_EMPRESA
+      Track = False
+    end
+    object LinkControlToField9: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'VERSION_DB'
+      Control = EditVERSION_DB
+      Track = False
+    end
+    object LinkControlToField6: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SERIAL_NUMBER'
+      Control = EditSN_PRODUCT
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DTE_INI_REG'
+      Control = EditDTE_INI_REG
+      Track = False
+    end
+    object LinkControlToField8: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DTE_END_REG'
+      Control = EditDTE_END_REG
+      Track = False
+    end
+    object LinkControlToField10: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DTE_INSTALLATION'
+      Control = EditDTE_INSTALLATION
+      Track = False
+    end
+    object LinkControlToField13: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DS_BUSINESS'
+      Control = EditDS_BUSINESS
+      Track = False
+    end
+    object LinkControlToField14: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'OFFERS'
+      Control = CheckOFFERS
+      Track = True
+    end
+    object LinkControlToField15: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'NEWS_LETTER'
+      Control = CheckNEWS_LETTERS
+      Track = True
+    end
+    object LinkControlToField16: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'OUR_ADVERTISING'
+      Control = CheckOUR_ADVERTISING
+      Track = True
+    end
+  end
+end

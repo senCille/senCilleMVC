@@ -1,0 +1,2721 @@
+object ConfigUserView: TConfigUserView
+  Left = 440
+  Top = 187
+  BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
+  Caption = 'Configuraci'#243'n de Usuario'
+  ClientHeight = 389
+  ClientWidth = 604
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  Left = 440
+  Top = 187
+  DesignerMasterStyle = 1
+  object LayoutRoot: TLayout
+    Align = Client
+    Size.Width = 604.000000000000000000
+    Size.Height = 389.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object PnlBtn: TPanel
+      Align = Right
+      Position.X = 485.000000000000000000
+      Size.Width = 119.000000000000000000
+      Size.Height = 389.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object BtnModify: TButton
+        Cursor = crHandPoint
+        Position.X = 6.000000000000000000
+        Position.Y = 42.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '&Modificar'
+      end
+      object BtnAccept: TButton
+        Anchors = [akLeft, akBottom]
+        Cursor = crHandPoint
+        Position.X = 6.000000000000000000
+        Position.Y = 342.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Ac&eptar'
+      end
+      object BtnCancel: TButton
+        Anchors = [akLeft, akBottom]
+        Cursor = crHandPoint
+        Position.X = 6.000000000000000000
+        Position.Y = 314.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = '&Cancelar'
+      end
+      object ImageHelp: TImage
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              069949444154484B7D556B6C14D715FEE6CE63671F5E7B6DC32E59833101BFC0
+              C421B4D8AD21C6A1A028499B9784699246AD88D444EA8F4A69953F557F546DAA
+              A8912A68034A6B05881207FE4434CA430A31C1381084F2A0320653B0D76B3B66
+              ED5DEF73766776E7D173C7384D14D4B3BA9AD1DD7BBFF39D73BE7346C0FFB181
+              8181765D2FEF1304F44992B8A9AEAE2EC8F753A954CE30AC31C630E4F1C883FB
+              F7EF1F752FDCC66EEBE0D8B193EB0D33F5F2DCCDC443BD3BB60B857C01F1F814
+              128979F7FF7078251A1B1BE1F707303C32E2442291F765D5F3FCD3FBF65D710F
+              7CC3BEE3E0E89BC77FE138E6C10DEB37F8CE0E0F23BD984634DA8070240CAFD7
+              8B4AC5C4623A83C4FC4D645329D4D68670EFCE9DB8118BE966C5F9F5CF9FDC7B
+              F816946BDF7230F0C68917E2D3137FBA67F366E1A3A1D3D8B6751B3CAA0AC3D0
+              619A362A6605957219E54A05657A979848B71CDCB83181BEBEEDB83C7EDD0987
+              C37F7CE6A9277EB784F80D07036FBCF5B3F854EC486BCB066174F40ADA9B5BA0
+              958AA8A909A173F34644C22BE0557D04E740D3344CC6E238F3C97964D269A844
+              224DCF8E4DEDB81E8F3B0D0D0DBF7CE6897DAF725CD7C18163C79A44CBFA7753
+              63636064F81CD644A3C4D0C4EAD50D7860F77D281B658AC0844DE04B97E8C704
+              489284D7074F607AE62B30524249D7D1DBB70333B1C9921C0CDEBD7FEFDE71C6
+              2F18A5F28B2D1B3B02C3C3E711591926E6254211B1E7BE5E1488AD4169B16C1B
+              02E13B8E43EF965B0B4337D0FFD823B069DFB42CA81E0FCE8E9C434BE716EF62
+              B6F4678E2DBEF8DA6B6B8BD3B587555F9E69B902E5D924700177DFD541CE56B8
+              797708599664CC2F24A11B067C5E1F6C726213B248512412092C66F354AB322F
+              09545986120C36DFDBB7FB04D3F3E5FE2DBB22E2E4440C8C844D046112DB350D
+              77B8AC784298C0108B4FE308A5E3C4DBEF429625179C9B65990804FC6E648C8A
+              CEEF4F4CC511AEAF6779BDD8CF4CC7ECF55268060FB9CCD9F200448CFF6702A3
+              97C7303935855C218FB3E72E203697049344D7314F1B67CC1D65B2393051A2BA
+              305A2232991CFCE4B42C083B25A648ED8ADF8702693B505DED165094182E8D5D
+              C51C355636A7114FCA3B81767FFF1E3CF9F843C8512A39636E363DDFFBE86344
+              574529752A294D456A769648325297D2CA9829D768B93C1C9E1E50CD894141D3
+              31353347970554D754D3AA414FF7363CF5D88FC9619E58DB2EB8CFE7C35F0E1E
+              465DDD4A2ABC83344542FCA85E0A72D92CECD9E915ACA4151D998A62512371E9
+              954A3AE69369C88AF2F50A5455A1FFD10790C9E5BE0657140F5EFEDBABC86906
+              82C1202445A6D1E1271198D02B65883203C905AC904F65FC74A04C9B9665BB6A
+              503C32155286242BAED6B750A3158B2557AA3C335E95C05FF92774CB41A8BE1E
+              2227422AAB22229C64B1584428548745609E95746D6C61268EFA3BA2C86B4557
+              76121D96C80177229293FA500D95C17655C61D8E93E26C26A1BAB60E221557A6
+              3D1FD55121B1709291D5AB915B4CA258285D15376DDDDA4069D8554751CC2592
+              6E4A96C0979EFC1277BC4083CD362D5782172F5D86EAAF2287A41CCA39131902
+              D41BDCB234799B9B9BB0905CC0DCECCC516608CEE0D8E531ABADBD954682EE32
+              1249E7CB9170F98528823DBDDBB16EDD5AF46CFB1E76FCF007E4D8E7F6032750
+              43E4189DAF100183E657475B0B4E1E3F6EC316DF14C72E5CC8AE6B6D6F13606F
+              6A6B6DA56E5D84E2B2F7B811F08B0FF676BB1D5C26EDEBB41AA3617C3E3AEE0E
+              39BF4F75EB62D104C890C2366F6CC6ECF4145299F4C9B7FE71E815771681392F
+              7C78E64C3E5C1B44759042A55C3391FA411421D1D24859B6CD35414629E1E3C4
+              A615AC0A2CA5897E5AC9404055B0969CBF777AA804D3FB1B7E9C0F745CF9E28B
+              ECC68EF6D8C58B9F3FFAD3C71F166E2616600B12A9224003CC8B2429AB61653D
+              390FB80DF7C1D0275483801BA14E1394E75D722AD8D175170E1C3AE4C8B6F5DC
+              DB83474E716C775C2FDBEE077FF2BCED982FFDEAD967855205B8746D0A9155AB
+              A8A1FCF090EE4B5423DBAA50DE5577A8E5B50252899B686D8A22145070E0EF87
+              1C52EEEF3F7CE7E41F6E412E45B06C37AE8D9F5BD3D4747DE8D4A93DB208E591
+              FB7F04C7D2E9239F26852D40E073887A21359F846019888602E86C5B8B9133A7
+              71F0E8EB2505CE73431FBCFFD75B70AE7D2B8265EBE9E95957348C97744D7BB8
+              ABAB4BECEEEEC29DEBEF24F6FC7B06FA54324C4C4EE0FCA79FE2CB2F2F393663
+              FFF2C9F26F474646AE2D21FCCF6EEB60D93A3B3B37946DBBDF328C5D24F85649
+              642BF8BE695A497A5C5524E9B4A3AA83A39F7D7695EF7FD780FF0234BFFF4054
+              10E41B0000000049454E44AE426082}
+            FileName = 'C:\views\senCille\Images\A_Comunes\Inmediate Help 24.png'
+          end>
+        Anchors = [akTop, akRight]
+        Cursor = crHandPoint
+        Position.X = 90.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 24.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabControl: TTabControl
+      Align = Client
+      Size.Width = 485.000000000000000000
+      Size.Height = 389.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 1
+      TabPosition = PlatformDefault
+      object TabItemReports: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 129.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Reports de Usuario'
+        ExplicitSize.cx = 130.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object CheckDLN_PRS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 154.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object GlowEffect38: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckDLN_SLS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 179.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object GlowEffect37: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckINV_PRS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 204.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object GlowEffect31: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckINV_SLS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 229.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object GlowEffect36: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckORD_PRS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 82.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object GlowEffect34: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckORD_SLS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 107.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          object GlowEffect35: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckBDG_PRS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object GlowEffect33: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckBDG_SLS_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 57.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object GlowEffect32: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxDLN_PRS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          object GlowEffect24: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxDLN_SLS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 177.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          object GlowEffect23: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxINV_PRS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 202.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          object GlowEffect25: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxINV_SLS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 227.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          object GlowEffect26: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxORD_PRS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          object GlowEffect27: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxORD_SLS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 105.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 15
+          object GlowEffect28: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxBDG_PRS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 16
+          object GlowEffect29: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxBDG_SLS_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 55.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 17
+          object GlowEffect30: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditDLN_PRS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 18
+          Position.X = 402.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect10: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditDLN_SLS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 19
+          Position.X = 402.000000000000000000
+          Position.Y = 177.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect11: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditINV_PRS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 20
+          Position.X = 402.000000000000000000
+          Position.Y = 202.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect12: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditINV_SLS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 21
+          Position.X = 402.000000000000000000
+          Position.Y = 227.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect13: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditORD_PRS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 22
+          Position.X = 402.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect14: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditORD_SLS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 24
+          Position.X = 402.000000000000000000
+          Position.Y = 105.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect7: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditBDG_PRS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 25
+          Position.X = 402.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect8: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditBDG_SLS_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 26
+          Position.X = 402.000000000000000000
+          Position.Y = 55.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect9: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label2: TLabel
+          Position.X = 223.000000000000000000
+          Position.Y = 11.000000000000000000
+          Size.Width = 143.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Nombre del Informe'
+        end
+        object Label20: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 107.000000000000000000
+          Size.Width = 85.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Pedidos Venta'
+        end
+        object Label21: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 154.000000000000000000
+          Size.Width = 110.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Albaranes Compra'
+        end
+        object Label22: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 179.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Albaranes Venta'
+        end
+        object Label23: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 204.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Facturas Compra'
+        end
+        object Label24: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 229.000000000000000000
+          Size.Width = 87.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Facturas Venta'
+        end
+        object Label3: TLabel
+          AutoSize = True
+          Position.X = 402.000000000000000000
+          Position.Y = 11.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'N'#186' de Copias'
+        end
+        object Label30: TLabel
+          Position.X = 9.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 128.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Presupuestos Compra'
+        end
+        object Label31: TLabel
+          Position.X = 142.000000000000000000
+          Position.Y = 11.000000000000000000
+          Size.Width = 72.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Mostar Lista'
+        end
+        object Label4: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 57.000000000000000000
+          Size.Width = 116.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Presupuestos Venta'
+        end
+        object Label5: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 82.000000000000000000
+          Size.Width = 98.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Pedidos Compra'
+        end
+        object EditORD_MNF_NM_COPIES: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 23
+          Position.X = 402.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect54: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object ComboBoxORD_MNF_CD_REPORT: TComboBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          ItemHeight = 19.000000000000000000
+          Position.X = 222.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 171.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 14
+          object GlowEffect55: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object CheckORD_MNF_SHOW_REPORTS: TCheckBox
+          Position.X = 162.000000000000000000
+          Position.Y = 130.000000000000000000
+          Size.Width = 19.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          object GlowEffect56: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label42: TLabel
+          AutoSize = True
+          Position.X = 9.000000000000000000
+          Position.Y = 130.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Pedidos Manufacturing'
+        end
+      end
+      object TabItemSeries: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 119.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Series de Usuario'
+        ExplicitSize.cx = 119.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object EditCD_SERIE_DLN_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          Position.X = 16.000000000000000000
+          Position.Y = 224.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect15: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_DLN_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Position.X = 16.000000000000000000
+          Position.Y = 184.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect16: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_INV_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Position.X = 16.000000000000000000
+          Position.Y = 304.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect17: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_INV_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          Position.X = 16.000000000000000000
+          Position.Y = 264.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect18: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_ORD_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          Position.X = 16.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect19: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_ORD_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 6
+          Position.X = 16.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect20: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_BDG_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 7
+          Position.X = 16.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect21: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditCD_SERIE_BDG_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 8
+          Position.X = 16.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect22: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label12: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 184.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Presupuestos (venta)'
+        end
+        object Label13: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 48.000000000000000000
+          Size.Width = 196.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Presupuestos (compra)'
+        end
+        object Label14: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Pedidos (venta)'
+        end
+        object Label15: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 165.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Pedidos (compra)'
+        end
+        object Label16: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 164.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Albaranes (venta)'
+        end
+        object Label17: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 208.000000000000000000
+          Size.Width = 176.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Albaranes (compra)'
+        end
+        object Label18: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 248.000000000000000000
+          Size.Width = 154.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Facturas (venta)'
+        end
+        object Label19: TLabel
+          AutoSize = True
+          Position.X = 16.000000000000000000
+          Position.Y = 288.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Facturas (compra)'
+        end
+        object Label43: TLabel
+          AutoSize = True
+          Position.X = 192.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 205.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Serie para Pedidos (Manufacturing)'
+        end
+        object EditCD_SERIE_ORD_MNF: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          Position.X = 192.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 156.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect57: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+      end
+      object TabItemEmailServer: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 128.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Servidor de Correo'
+        ExplicitSize.cx = 128.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object EditMAIL_FROM: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 7
+          Position.X = 24.000000000000000000
+          Position.Y = 247.000000000000000000
+          Size.Width = 297.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect1: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditSMTP_ADDRESS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          Position.X = 24.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 241.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'smtp.dominio.com'
+          object GlowEffect2: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditSMTP_PASSWORD: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          Password = True
+          Position.X = 24.000000000000000000
+          Position.Y = 100.000000000000000000
+          Size.Width = 400.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect3: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditSMTP_PORT: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          Position.X = 24.000000000000000000
+          Position.Y = 172.000000000000000000
+          Size.Width = 130.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect4: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditSMTP_TLS_SSL: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 6
+          Position.X = 24.000000000000000000
+          Position.Y = 208.000000000000000000
+          Size.Width = 52.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect5: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditSMTP_USERNAME: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Position.X = 24.000000000000000000
+          Position.Y = 67.000000000000000000
+          Size.Width = 400.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'suele ser el email del cliente'
+          object GlowEffect6: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label10: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 192.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'TLS/SSL'
+        end
+        object Label11: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 230.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Mail From'
+        end
+        object Label6: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 131.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Direcci'#243'n del Servidor'
+        end
+        object Label7: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 51.000000000000000000
+          Size.Width = 119.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Nombre del usuario'
+        end
+        object Label8: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 84.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Password'
+        end
+        object Label9: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 156.000000000000000000
+          Size.Width = 42.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Puerto'
+        end
+        object Label1: TLabel
+          AutoSize = True
+          Position.X = 25.000000000000000000
+          Position.Y = 269.000000000000000000
+          Size.Width = 108.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Mail Carbon Copy'
+        end
+        object EditMAIL_CC: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 8
+          Position.X = 25.000000000000000000
+          Position.Y = 287.000000000000000000
+          Size.Width = 296.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect39: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditPASSWORD_REP: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          Password = True
+          Position.X = 24.000000000000000000
+          Position.Y = 135.000000000000000000
+          Size.Width = 400.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect40: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label25: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 119.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Password'
+        end
+        object BtnTestEmail: TButton
+          Cursor = crHandPoint
+          Position.X = 339.000000000000000000
+          Position.Y = 228.000000000000000000
+          Size.Width = 103.000000000000000000
+          Size.Height = 79.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Image1: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  1094494441546843ED5909709CE5797EFEBDA55DDDB265CB878C2F0AB18D2F4C
+                  392D070231E0124C3813D2696968C384C9141A3A9D494A4D9BA10D211D5A9A10
+                  E2D89C360643688C0984826B828D8D2DDFB224EBD8D5CA3A57BB92F6DEFDF7DF
+                  BFCFFBEDE1F541864C0B99CEF0DADFFEE77EDFF3BCF7B7C2E7F2B97C2EFFBF45
+                  CB1FF10F8FFCE8FB6699F3BB9644C6932D77C6914E8D5AF4CC70C6C4A81518C9
+                  C232A469FAA035EB1830101BC864D0DF515B3EB2F5C10713F929FE205224F0BD
+                  EF7D3FF39D071EB2EA691D8691859E31904AA5118E44118BC5914A26914E6790
+                  D1333C4FC0DFE7371D8EAC3E31160BEABAEE87D5D29BD58D5ECDAAF71ABAB5C7
+                  34F59E8CB7DDFFAF5BB77EAA048B049E7AEAA766737333E6CCFD230237A1F189
+                  05264C4DCE351854792A9D42524F41489AA6896C16246520128D21343646A209
+                  1A2E81443C815E9F8F2F4433D1A8D66F68E96E2D9BE9CC5AD0A1A7CD13C8644E
+                  4C9A54D9B36EDD3ACEF0BF932281471E79247BEFBDF76A814000F3E72F20D82C
+                  41669195418BA8A35ACEA085488C1742CE62B1C06AB5C066D190317424532992
+                  4AE7DE31817832854060146363E388C7628846A3088DF49AD194998C44239D30
+                  B2C7B3A6D19A35CC367EE998CD96ED79FAE9A77505EA134891C0C30F3F9CBDFF
+                  FEFBB5316AD26AB1A1A17116B59E236118049D35F25A17223C2A427C2ED7EA3C
+                  F7CC50CF7303B4A0C36E83C361A7154D5A47874E92328F4E770C8D4F60607008
+                  E3E3638884C3088783E658289288C763ED59337DD434AD474C4B76FFA60D1B7E
+                  AB263B879C4580FE8CFE8101CC98DE04B7A7960045935C3C932E022B122900E7
+                  5111298CFCF35232592A405D8B357914B774BB5D70399D4A4962B58C72531DC3
+                  2301F4F9FB11894C20141A358706071E7F7EE3FAEFE6A19E2696FC113535358A
+                  A14C3E63DA341C6F3BC645D2B937AC1AEC76BB3C560BE74FD4B95CF2337F7EFA
+                  B0940C4DB3F0C84197D3E86E540BDD298140700C81D1714C8413A8AEA9C7DC39
+                  F3B16AE555F8CBBFF80656AD5A098BBD4C0B0C0FFC556ED1B3A54880AE53F43B
+                  D1D4FC79F3B07BD76FE174F01552D3B8B0DD6653CF73004B8117EE7110DC69E7
+                  F961291956891B0E0B63478EE5E5659837EF3C5454783891585CC3B6B7DEC5FA
+                  679EA7E26CF054D496AB85CF2145020E876342B42F222E229A6A6A6AC2BEFD7B
+                  E8C7D41A49C864562BAB0285B0E4E314D892A1B42E608BE739CD9F36085EE6A8
+                  ABADC179B39AE0B059A920CE4D0CCFBDB809DBB7BF895B6FBE9189C1406D6D1D
+                  573AB71409107CB2E09B391F37E071BB55DEEF3FE95599C6E43397D341000234
+                  0F9EDFCD01CF1D95BBA8E7791202B6789EBFE610979CD5341D0D9327A9EF3A9D
+                  2EE5FB8F3DF16F686D3D86BBEFBA85DFB3707D09FA8FCFB645020C20A3109C22
+                  9206A598CD993D1B1FB5EC63F0A5F8B2828B329753D0164117468E58E979CEDF
+                  15F082FFD31F6BAA2B31F73C2609BA8E3C7339EDD8B5672F7EF8A31F234BC077
+                  DEB656AD6F18198227964F428012960A2C22240A3540CFE858BE7419FEF357AF
+                  C3E512508C69BA91931AE4550E6C29110556CE0570EE3CA7758DF1E440D3CCE9
+                  9842AD4B9114B749B36E6C7C6133D66FD888F3E7CEC19A1BBE0C9D56170C92E1
+                  0A737E9C945A209A4E27C956D2A258428A9568815D90C58AA98D53B16BD72EC6
+                  8A7C8556287328B72A02CF8F9CA605F429F0F2DEA4BA1ACC9A3E15E5D4B63C2B
+                  733970ACAD038F3EFE0476EE7C1F37AEBE16975CBC1449B62CAAEE708847309E
+                  611AF2796E298D81542C918026DACFE77695DFE598CD507333D1D6DE8E5030C8
+                  CC21F369F0D00594BF1700CB799108072D5555E1C68CC629A8AEF450E7A64A04
+                  3A73FE0B5B5EC3BFFFE429C42261FCE9D7EEC0F4698D48F2BE7263197C973072
+                  58F8EFE3A48480399A602F23AF2A17922FE6878A07FAE6A5975D8A4D9B37219F
+                  4D09DCA25C49C8A87F4AE34C93D4B8C75D8EC6867AD4D65416AD2259E6C0E163
+                  F8C10F7F8C37DE7C0B0B2E3C1F77DCBA5632A06A140BEBC9DAEC58789EB38221
+                  D71F23252E64A4E3B4809A24AF0565C2FCB9D406BBD58E994CAD6FBFF30EC148
+                  386651C64A2AE0885F11286780D73335565594E76949CC004116ACA7363C8727
+                  7FFA33A939B8FDB69BB17CC912D53BD17D95A50B7127834EC4149ACB8A049503
+                  790E29B54020CE2E52015601746A14DA0469D62EB8E002D686FDAC9EA30A9E34
+                  74424280D7567958945CAC19F2BEA9802793696CFBF56FB0EE9F1F630CEDC692
+                  C517E1AEDBBF4A829548A91429EB9D1AA27D657DD5301218959FCE7057F23152
+                  24C054954CE403A854F3456BE4271557BAEACA2BF1C28B2FD29F994BF8CC4E97
+                  B13B6CC5C5C5F7E5FE07BBF7E211027F65EB6B8C814ADCFDB53BB168E102661E
+                  E97B8C53A065FEFC3A8591737B621103E4B3E3B9A44800D94C30C98D8AF4FDB9
+                  38C88129366979D38A4AC2E1097E9AF868DF7ED50AC8823291A457B9BF777F0B
+                  7EF0D8E3D8F0CC7338D9D78766F636ABAFBD463D57AD36E7297597524B17D653
+                  2EC46E58E6E55D7EB2135870CB22C7C235075DCB6FCF3A2EBAE943E79235738B
+                  04D808C52406D22C1E34C3A9C9092EA721B96DA0ABAB0B575C7E39EEBAF32EBC
+                  F6CB5F7231030EA646E9223FD8B3078F12F8CF7FB181D92582AFDF75271EFDA7
+                  75D87FE000FA8786543C8802CE72174E5E3A943568ED2CD7930C178B444D5C78
+                  EB14D39ADE7EC5756B162FBBEA5ACD39ED0B7F6C662DCFE71A1BCAF2E5CB9B6A
+                  6BEA6E6B6C6C849569A630B14C26122520497FCD2B57AAFEA4ACAC0C232323F0
+                  FBFBD0E3F3E1A5575EC18724204177F39FACC1576EBE0955D5554A8BABAEBA1C
+                  2F6EDA82FAFA7A1643574ECBF9B9657A0558C814EFE5D6D4B94E901B21D68CEC
+                  91FE9115175F76F5A286E933D131308624B39496EC6E3CE5428616CFB0EAEAE2
+                  426A819C99456392351A1A2663D9B2E5882792EAB9B8C235D75C837777ECC01B
+                  DBB7ABBCFF255EAF5D7B33FB7C0F8357B28B6C8632DC95A5F1777FFB37D8BB6F
+                  9F0A7ED6D753DACFBBCC995948B42FD9C9CD74DC1E089833CFBB70E592654BD0
+                  1F3690346DB008B68CBBA548C0E5B20D9B740769D69C74898299650BB8F8A285
+                  9832B551ED896567256D422C1EC7E0E0202E59B10237DE7003AE5FBD1A531A1A
+                  D4E63F914AC2D7EB579AE6CB6A1EF971E0A107FE1ADDDD3D18653154F74B345E
+                  58AF488C986CF484892470C06FB1DD78FD6A0C256C184D8BD35890F2B7456138
+                  EF391503BA1E9D181F33A5A0488AAB626F2E55F3E265CB38915D6952FA74962A
+                  768D23F0F97A69051DB3E7CC416575752E9F536B05AD4A8FE367000B2811F18A
+                  E0F838EEBDE7CF591382DC698DF3AE9093847186F6392CE25A0C9A97761CC41A
+                  BA64DC5286A11471981624BC2DA6E634BF193BB0E96891405836A43C4A269254
+                  595959817973E7AA5C2D0B8848C0767BBD0A40EE9A2E222E57703B195C5C6994
+                  4348F9C512829E2287403084DBBE7A0BDFD5B9179E208773689FC346E56DDFD3
+                  81BAA6F9983E731606097E3C9E46B8BB054632F2F3D8072FBC24731609582CFE
+                  D86820C0B8C9A2BABA86FBE10A45441617AD4B009F3CD907168BDC6279908521
+                  D7EA5E1E40018CB89DCFEF57955CE37329ACA1B110BED8DCACFAA47038924BDB
+                  F97964482B32124EE2ED833DB8FE4B576384E007988822FDDD480D767446A243
+                  0FE4503375E78F387CB837B362C5AA87962E5BECACA8AAE02E8C71C0FB92FAC2
+                  6CB8A21CD24A94B1D2DA6D52C0721628FCE452205020567A6DE806E2F118ACCE
+                  323CF9F26FF0F4EB3B70B8C3871B565D0E1B7D45DCA9504F2469381D76FC6CDB
+                  87B870E9A5A8A89F86AE8886D1D110C6F66FCE662CEEB5E98FB6760966915359
+                  88C2867424435F0F8E0673937148F729BFE78865E49964062667A65117AAE866
+                  55245BCE73212CADB348A92BA84182F2B3CCDFFFE44574848045975D8723410B
+                  BEFD2FEB316B4613162D381FE5DCFD55732E71DDAEE1287A996D162F5A8011DD
+                  8E603483B0F710F4ACE717D1F7D7CB4F2C45C9D5969CD8BEF9ADFB0E7EF9BAD5
+                  0BEAEA2671C18CDA70C846DBA97EFA3015782A9D235FE81440B9C12CCC7BBC22
+                  700D199375949B12096A212EEE23BDD22DEB9EC1D7EFFE3384125924F8DEEE1D
+                  6C0A07F6C11D1D5400C40AFCC070F97CDC78FB3750D5381BC7831AABB90F81DD
+                  9BC7D263383F7A686340BD9C97A20B51EAD2E9D4B47EFF40435BEB918A782C61
+                  493306A4958D46636A6F5A689745A42A2BEC79ED0A9902D89C5B89FBC8BBB4A4
+                  C265C3FB074E40AF9886ACB302498DFB6DF7648C0FF5A3DE95E5DEC285B28A0A
+                  64DD53604E9ACF7EEB2AF4251D181C4F21786C276C21EF5B9E915D9B2726260A
+                  4A177F3B8D407C6478F8DDF6F6D6CD7D7DFE77074786E27DBD5EE7C95EBF8741
+                  E78846E3AAC80921D5F0C9F73995789A22C3098A9928EF36AA9F977312929A30
+                  8DFB8357DFF900D64973607AEAE1ACA8A5B534B8B9BF78F09EDB70C5655760AF
+                  3F82852BAE8459310927A3368C8DF421D6BE13B5096FB9C7617B76686848FCB4
+                  40225B4A40447044138944F7E0C0C09B9D9D9D2F1C3C78E0E56020D0D5EBEB35
+                  4E74773ABADA5A3D9148D412655C48BF2E9DA7B0280D5AE562025CC8A86B891F
+                  03B3A6D6E3F55F6D43C2520E47F554B83C9524518793DE4E7CF19205983B6736
+                  9EFE750B2EBFB21903691782B134468FFE37EAF4217834A3CA66A6D7F7F7F70B
+                  01196201F34C02A5222FA43802943DBDBDDE973BDA8E3FD7D3D3F3FAF050A0CF
+                  D7D3A9777775D95ABC5E776C74D41A61AF24416EB3BB7219454D20DACF59485C
+                  4B027DC7F65711E33D4BCD349457D20A1E0FDB4C3776FFD71B181809C2D1301B
+                  CEFA994C9D4E84C786A177EDC2EC4A8DE93BA26513D1CD03030305F0CC26D07F
+                  1781334530C5D903B1B11CD8E9F57A5F6A3BDEFA4CEFF1D62D81E1A1E3DE5E6F
+                  B8ABA3CB6C3F7ED8393C1270854241F533BB545887D3A57A25F955E2EDB7DE44
+                  A5A70A132943012DF354C3E1AEC1F0A01FAD6DEDB8B87935C6340F226C8F836D
+                  BB7165930BD9741231567123117E9504048BFCCD21CA91FC7D089C294228C162
+                  374CF9A8D7E77BEDC489F6675B5B5B377A7B7C6FF4F79FECF675778F7774B61B
+                  C74E74D83A8E1E7196B9CBB596434750EBB153FB75885AB883AB9A046739ADE0
+                  70C36EA6D038670142861BE9440CC1236FE3A13B9A71A4AD13B1F01832F189D7
+                  48808918C31C2CE3BFDB857E5F11B3CAEFABE1582CE21B1A1C78DFE7F36EED3A
+                  71E2D913C78E6EF40EF6BFE2B6590F074213D77B2AAA70EB4D37E0FD7D87E16A
+                  98432B54C15EE6818DF5C4E2990CC3EA44C8DF8A85EE286EBDFA12ECDC7B907B
+                  8231E8D1F1C749A0936B482325EB9D5EC83E05A1B72B53F72742A1BD5BB66C79
+                  52FD26CAE6F0C219F5583AAB16B1E049D54BB968058B7B12525A994A00B1BE36
+                  DC71EDA50AA6D5E6A00BAA6DEA21CEA534CFA1E4D326709648D6B29280CD6EC5
+                  77EEBC0EF1BE56B6E05116772B3C359379DF0E3D158795C5ED2BCDCB9165B327
+                  F7E47B2D2D2D67FDE5E60F40C0AE767C42A279F13CCC28379098185575C36A77
+                  D23A0E8C53FB2B17CE527FDD91846FE1FB32CE259F3901A658D346A0F26727C9
+                  4CFF78EF5A8C1E7A1313833E55F026027E448EEFC47DB75CA3DEB75949568869
+                  B243385BFE2F83F813C9E4C699F7D43634564D4462983A750A2ACBAC985EE5C2
+                  BEF7B6A1F7C82E38FB5B7077F30558F685B918670BB36DE73E1EE3186152F3B5
+                  1F7B223F4D510A25F93393A5575C7D9FA7B2E63F264F9F45FFA60B687429F9BD
+                  544F23CD96DB428D57D53116B8F9B7F2DCCEDA31D8D3817070F45BEFBDFEFC53
+                  F9698AF299131059B6F2DA6FDB34DB438E32D77468568DFFE95A569ED2D7D5CF
+                  943218EC749B642ADD67B59A8FBEF7EAD9E001E07F00517EAEC70E073D640000
+                  000049454E44AE426082}
+                FileName = 'C:\views\senCille\Images\IssueReporting\Test email 48.png'
+              end>
+            Align = Client
+            HitTest = False
+            Size.Width = 103.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            WrapMode = Center
+          end
+          object Text1: TText
+            Align = Bottom
+            HitTest = False
+            Position.Y = 62.000000000000000000
+            Size.Width = 103.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Test de email'
+          end
+        end
+        object ImageSMTP_CHECKED: TImage
+          MultiResBitmap.Height = 48
+          MultiResBitmap.Width = 48
+          MultiResBitmap = <
+            item
+              Width = 48
+              Height = 48
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                1030494441546843CD59698C9DE5753EDF76F77DF6D5339EF1823D36631B6C0C
+                81018C6DA0C42218B7103B49EB94544901F5474BA5FE41899A1F28555322A552
+                1311559593AA712A558DA2D2D24011A48469316063ECF1329E3B9B67EECC5DE6
+                EEDFDEE7BCF7DEE9188FF3A333967AC6AFBE7BBFE5FDCEFA9CE75C4BB48EF2ED
+                179F694B2FE6BE97D0024FD9061965C5FCD62BA77EFE4AFDF26D917533E0E52F
+                3FBC53F3057F7160DF9EEEDED604E54B253AFDCB378C6CF652ECBB3F9BAED46F
+                5B7791EBC735C99F1F3FDC21BBDABF1C7FE270F7BE478E50341226C771499125
+                8A2C0C98F5DB6E8BAC8B0155D97DF5D0FEA1CEDEE1FB482F17C8715DC23F3294
+                268DC214ABDF765B64CD06BCFCECC8D656CB38BA73F82E72240FD9A525715E96
+                5C92BD1A2D84E43671E236C99A0D7035DF17B6EDDE2AABD136726D9D1CA34492
+                AC902449D4AA2A3049FD7F6E8044BBDB9B9B09094F64DBE45A86382F23FFDBE3
+                21921DF75171E236C99A0D40A644FD5E955CC726722CE17D170510F407A83311
+                C179E7B1FAADB745D61E018B6CC334C8A994A0AC45B2C72F0C080443A4A93245
+                22D53B5E3E3612AADFBEEEB2660364CDB9962B56A8B23025A220FBC338EB92A6
+                A968328022B5492E2B5AA476F7FACBDA2320CBEFCC2CE4108632B97A9914B446
+                59AB45C1B22C22D321D3B587EAB7AFBBACD900BD68FFEAF252C955540DD0A990
+                63A30E340D575CF207FCF4D09DFD9264BBAFBDF0E8DEDB1285351BE04B99B3D5
+                7CAE2AC1E30E6A802C1B108A6D913DDD3D7DE45755BAB3BFBDDBF57B5FAA3FB2
+                AEB26603BEF9F6DB966DC857ABBA0E1402843A264327EB4F8AA252249EA04DDD
+                4D1420EB8FFEE4C8BD9DB5A7D64FD66C404DDCB199F91474D749721C7C4724F8
+                2CA29248B420AD6C1ADEDA17CCEBC6F74746481517D7497E231BFDCE8B27872C
+                ABF84C79297B876D190B1E5FF0AA16895CF3FBC2E386E4A6245DBF0FBCE70FFA
+                BABC23FBB60CC9B1A09F02D126A1B0A9D708A8A22874F6CC28BAB445FF766ECC
+                9D4CCEFD7DF1CD0B5F3E8DB6276E58A3AC6AC0AB2F1C8FE892F45D351EFDCAFD
+                1B5A94D64494F24B39CAE4F254A81854B6655A3034774B574CDA3ED04B6DB85E
+                7565CA5C3D47F1CE8D645B26BCCF914088659966A626686E2A49AAA6D01B1FC3
+                88A985BF2BBE75E1ABEB61C44D06BCFAD2F16EA3A2BE3EBCA56FDB239F7F4272
+                432D68564809BD4876314B66314D7A768E8AD945282991E4F553ACB98DFCED03
+                74FDA33729146F27D5E311E9C3C29C88237266F41D51D8DCDCFEFDFCB83B3395
+                3EB59438F77BA74FAFCD08A57E14F2C2207903FD3BDF3EFAF883437B0E3F25D9
+                6A906CB34A4E355F8347D5233AAD1A8C932FD2048FAAA8DB0A252F7E428BF3F3
+                D437FC392AA5A7712F0A99091DBC0F4BB03398A9AC526E714EF486FE4448CAD8
+                CE4E331519FC7CCFFC3FBF9DA45AB8FE0F728301BBEFBAEB496F507EFE0BC7BF
+                2AD9B297EC321AD46292F4D931D217A6A9BA384995CC75D20B19B2AA45E48744
+                5A2042B14413E5E7AE5172FC0A756E18C4AE1A5946552C1BC6B0C49B9A49463D
+                2C65D2088B42032D3129EDD28EEB95D8F083FD2D3F7F6F7CFE370E3EC78E1DF3
+                ECDFBFBF79CB962DD1A6A62637994C0AD678430A7DED897DAFEDEA899D7CEEB9
+                AF93DB3544566A1CDE74A0FC04226120B7B14CB37ED4C539064C4F20461E8F4A
+                172F8CD1869E1EF24723481D45282C034A4534F0D9E3F1517A619E2E7F7A0ED1
+                819D48AFF7A717DDD13363E7155939FA0FEF5EBC04353C1D1D1D3F3C78F0E03E
+                D48F072918F3FBFD218081AC699AACA2AF64329942B55A7DECD4A953FF794304
+                7674B7BCB4B923D6ABC1B32D113F99184E5C4CE736BCCD2924162B8F63AD5039
+                3D90E3964EBE6084CC4A1946D9E40F0645FA704393B8437B0324AB5E343A8742
+                A110C55BDB29B39882E912F5C52392464EEB782AF5EC93478EC49F3E7EF2A799
+                6C6EEFE1C3879A77ECD811DFB871A3BFAFAF4FE9E9E991BBBABAA4CECE4EA9A5
+                A5C58B080C9F3D7BF607CB11F8AB3FFEFACE2B173E7963DF40B0D5B21C6A696E
+                A5E6D666143022CB8A0055D86BA0CF82FA7B80285E0F9483A28A8649CCB4A850
+                0417C2F7502C46815098D4483369414C947846E2090D0ABB7A49CCCA2622F9C9
+                87A3708A4DF9429E92B38B64492A1D3EF10D0ADF711FBDF3E61B94CB66EBDADD
+                281C85D1D151379D4E0F0903BEF3FCEFF72BAAFDC1EF3C7928DED9DD2B3C65E8
+                55D2AB6532CA58A0CA26881A7BD8E073B8661A3A95CB45AA96CA14F079911E1E
+                C14055783C100A52B4A995BC2DBDE8CC4C2D8056788FA018EC01103F1580A063
+                9FF31FFD170ADBA689E41475B6B7900AE3869FFF3EBDFB1FBFA44B6363C2419F
+                153E373939496363637F2852E8D0DEA16F3DFEC4A1918D7B46C85403C03A0F08
+                990FB91D426A84D09C62148C25289A680564B653734727A2D349ED9D5D822A5C
+                BA328E682880480D8D8B5387288808484CADB91FD4219543C1D76ADD1AB5E30B
+                08BA51299768A950A480D78B6B36F5EE7998324B05BA7CF912D2154D11D1FAEC
+                E2F3D7AF5F9F11E661703DB469C75D64E6E6C9BE364A56F263B2662F90317B91
+                AA3317A93C73814A5317283F799E96A63EA5CCF8394A27719CBE4C9259A2818D
+                7D3497CE91E3DAE2E7141B2968F168C908C4CAC208D1D8F8335ECCB9C8F5C303
+                505B4717FA868FFC3E1F87089724529D2A2848828AC522A25CBE69954A25569B
+                2179B330C00DF70FAA060A16A822BE73AEC26936309B2DB511621B6864430171
+                0E5E6224B29046D5E212B5B7B7525537C94001638414CA59F092851463DF3794
+                E7A358222DD80007482C51389A1029D89488D1E0403FC9008E20808095AD5430
+                2CADB20C83C1C4EE11064C7CF0BA4C9502A00E3C8B0B0EE7186D1C14700D7918
+                81F0597C6F1C6B844DE436FE5811B6DA84710CAD465547C1167823A1A88802AE
+                8928F0B1EE24044CC06C2412A2AEF6360401C6A3DE0281C02D23C00B308A1AD2
+                9B8501C5F9B9D2C7EFBD45CAD234292ACA02832EEF0C80142F4552DC788432AC
+                302BCADC68F48333140D0771BE963E2C3A5EE0E05EAB5C108ABAAC6923026C84
+                10BC0329534531B7C6A3A24B2B68825CE75E00037B7A35E51B0B126107D29746
+                B6FF74B8AFF5D896BE4EEAECEE11906942010B2965C2DB9C0EDCD04CBC80C5B6
+                E1697CAE8A949328E0F70924E202E6420E047DE4F378C9EB0F5014902A798322
+                CF99BC73B4B88171BEB3B2A5528116A7C7290C26CB291A0CC729B4FD00B9ED9B
+                E9B79F3E4A5E14F66AC248343131013606397EFFD60E78E61F377477EFFFE289
+                2FD1863B76617F84993DC251404E32A1730D140FE7B65941BDE8823257A0C0D9
+                8F3E260FB05945F418A3BDC8E730A054C1676E6A81083A33D2440674AADC5390
+                AA3CBD95F339AA1473C2684E9DD1339FD0F0F64DD47EEF51F2F4EDA6DF7AEC51
+                B1DF6AC206CCCCCCD40C60F9EBBF78E5E4CEA1ADAFDDB76F0F99E929C2EEC07A
+                1ED42BA207085287687007E6C575C185EC0F46E9ECF98B82F7F0CBC4026D8804
+                038049903F28EE4134D818FEB18B85EB88F30A992222C175C19DFBBDFF3E0B03
+                1DBAFBE96F50DBAE0374F0C04388D20D646159D800C028487C5DE6A7AFDDDBD3
+                1C213B3D4916081CD3661B467041D58AD6595EAE380232B1D883B15804CC5413
+                E1065F11755415786D89BCAEA2F9554A792AA3E35651139C9A4C47041000E1B8
+                DEF8F3AEA1CD1441E4F83903CFA3486F429F952B97CB59CB069CFFD5BF0E683A
+                D86721258A889573EB4A7231326673D8572E2E687E31775AB80A85073C077AF0
+                9161518621EC41364A43D3F20482A4095EA4C1F3E805F0BC051EA523CA0694F5
+                605618D8D085BA09A3B06BCAAF56BC8D05492F1B00E6E82CA553A4D4D1A6A660
+                4D51EE8E023938D428707C118B534207F68F5D99202FF321789219682C16A78E
+                1E4C6ABD83D48C15E9ECA740A29D7CE104A93042F5A03E34A4159E616334189B
+                CB9744AFE1D464202B41796E58AB29CE8B2116BDA0B29C60BBFADA765AA5CCBD
+                512008A708230BFF54C2F9CE1B150B05CAE70B945B5AA2258C96FC79F2FA025D
+                9E98A5B6E62691364DCDCDD4DDD549A1F63E0C3D093051200882B35C680C9B5C
+                7608B1881AFF1368A480D03111648AED92D6B58DF2AE8F7EF4C31F2C5387D516
+                F4BABCBCF7F191C16E993CEFDFB3B9ABD3042EF3E6CC1A753424F6B486220C86
+                A3086F1C9D3302038348171F95302B974A45E46E98B66CDD428A0F1E8EB4D466
+                058E2252CC45D1F291D34DA4A5836B50401433A72A949E9898410AB91404A70A
+                EDFF22CDDA213AF4E0E76E59C4DC739062AF2F1BC072FC9E81DD7E6FE0AD0777
+                F745F885BDDBF6D29D0F1C0275D6C807449170CE46BEF218298A9BE11474E2D2
+                D80514A64D039B3093C65B4106FD82868BA6279446B142511B0681DA22AAE8D2
+                0CCBF8D3912ADC53AE5E9B1469D1DB12A1E823CFD1D5C5323DFEC801513FB712
+                00C46BCB35C0F2E35F5F3D5355DCA74F9F1977DA0677D203474F504041B84B8B
+                549AB90C227791F2B357A8904A52399B029506A240B930B0BE08DED3C07A8567
+                675E02915481F1FC9F1F92594660B913BB54AE1A94CD211D8B48CF3250A55AA1
+                42A94259B052D3C5D495AECD0282F4ADB298F2E398BCC1001610B7890D014DBA
+                7FEF30E957CF90014835C052CD6296AC520E535A96F47C862AB9392AA62649C7
+                D456C69CA0EB069446D301F4BA8060AA2E9184675CDCEF56314F40C13CEA2895
+                5AA079AC4C2E8BEF452A629EE06315A9EA51255C4B91A9F8D0A4A6C18F306FA3
+                937F76C5E3E8D698EC109DB19B0C900CD5C785C5DDD101D22C133AE46B6D9464
+                9E5443212E721585FA2966E11836E581859FE1A1876B238B019E159A9D9DA5EB
+                7373945E4C0B1028205504206473F074861661D05CB648FFF4E1A4D3F2D049CA
+                60B29B4A2609C3FB2D0DF0F97C0E08DFE80D35C0F295910D3E9BD4993FFBDAEF
+                26360E6E221DC3062BED804E38683A2E0A905F9A43F84D47A2F18924B5B4B6D2
+                E0A6CD02FF997A37F89329B894854EAE8B3D98E0F1349743DA14CA5510419D72
+                858A3B9F2B1551DA3F893775FF65CBDD075FFAD1DFFCED53BA9E8B7304D899DC
+                75396DF8C8DF397D52A9D4FBE8C4F7DC6400CB3323DB5E680F055E7DF1C41129
+                168F5019303A3F9FA6D4E222561AC6807421EF43E1B0F0BC063C676106691888
+                142B2FE605280FCEC448368B812799CAB9B3F34B5388EB454995C6417AC710D9
+                0F2B5671F467BF9E6666C819C1BF3CDC89C1FD617C0E0085C2501EA70427E2EC
+                08E13B1AB5F96D44F6D2AA06B03CFBC0B63F95ABCA37EFDED1EE8DF834E2FF07
+                E3819D857FE36158E59461586776AAC3C316B354C6E74A5534A2A5628532F992
+                3B9FCFA775DD7DAB50D64FFFE2832BEF620B5696A92D0F062CAC076FCE98C99A
+                F291BF37F463DAC4F7F233FC2C709EF877A4FF25732B841F64ECF2EFD9DCB1BD
+                37163A01A6B9D7EFF3F6077D5A8CF93B47C0EBF3939E754CC36F170CCB2A9A86
+                95B625B78CCE8D59C82DEAA69E2D948DB9B96CF9CAB5B974126FE717375ECE4B
+                C75A69040BEBC3CAF3FB39AC0D6358D808BE9F9FCDD757E9B306B0F220EE14C4
+                0A6345B1E2F5239FE36B7CCF4AEFACDC4310CCBAF06754BBF0142BCB8B0DE081
+                96894CC38B7C0F2F167E66A5013C0CF0E7C6FBF83E7E2E535FB9D50CE00759D1
+                C6E24D78B1377835366BAC5B092BD358FCE2460AF062C55753BEB15FC3492BDF
+                C5C2F7F03EEC0876C24D1168089F5FB9C9CA8D56AE86ACFCCC2F594D1AE71B06
+                AD3C36E456FBB3F0F7C6BDFC1C1C41D6FF00678D616A6037205C000000004945
+                4E44AE426082}
+              FileName = 'C:\views\senCille\Images\IssueReporting\Config SMTP OK 48.png'
+            end>
+          Anchors = [akTop, akRight]
+          Position.X = 2595.000000000000000000
+          Position.Y = 9.000000000000000000
+        end
+      end
+      object TabItemLimits: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 126.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'L'#237'mites B'#250'squedas'
+        ExplicitSize.cx = 126.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object EditLIMIT_ROWS_INV_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 19
+          Position.X = 162.000000000000000000
+          Position.Y = 255.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect41: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_INV_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 18
+          Position.X = 162.000000000000000000
+          Position.Y = 234.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect42: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_DLN_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 17
+          Position.X = 162.000000000000000000
+          Position.Y = 213.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect43: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_DLN_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 16
+          Position.X = 162.000000000000000000
+          Position.Y = 192.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect44: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_ORD_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 24
+          Position.X = 162.000000000000000000
+          Position.Y = 149.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect45: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_ORD_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 21
+          Position.X = 162.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect46: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_BDG_SLS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 28
+          Position.X = 162.000000000000000000
+          Position.Y = 107.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect47: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object EditLIMIT_ROWS_BDG_PRS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 27
+          Position.X = 162.000000000000000000
+          Position.Y = 85.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect48: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label26: TLabel
+          AutoSize = True
+          Position.X = 163.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 39.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'L'#237'mite'
+        end
+        object Label27: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 255.000000000000000000
+          Size.Width = 87.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Facturas Venta'
+        end
+        object Label28: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 234.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Facturas Compra'
+        end
+        object Label29: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 213.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Albaranes Venta'
+        end
+        object Label32: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 192.000000000000000000
+          Size.Width = 110.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Albaranes Compra'
+        end
+        object Label33: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 149.000000000000000000
+          Size.Width = 85.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Pedidos Venta'
+        end
+        object Label34: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 98.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Pedidos Compra'
+        end
+        object Label35: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 107.000000000000000000
+          Size.Width = 116.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Presupuestos Venta'
+        end
+        object Label36: TLabel
+          Position.X = 17.000000000000000000
+          Position.Y = 86.000000000000000000
+          Size.Width = 128.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Presupuestos Compra'
+        end
+        object Label37: TLabel
+          Position.X = 17.000000000000000000
+          Position.Y = 23.000000000000000000
+          Size.Width = 128.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Clientes'
+        end
+        object EditLIMIT_ROWS_CUSTOMERS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 25
+          Position.X = 162.000000000000000000
+          Position.Y = 22.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect49: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label38: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 43.000000000000000000
+          Size.Width = 76.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Proveedores'
+        end
+        object EditLIMIT_ROWS_SUPPLIERS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 26
+          Position.X = 162.000000000000000000
+          Position.Y = 43.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect50: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label39: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 54.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Art'#237'culos'
+        end
+        object EditLIMIT_ROWS_ITEMS: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 20
+          Position.X = 162.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect51: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label40: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 170.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Pedidos Manufacturing'
+        end
+        object EditLIMIT_ROWS_ORD_MNF: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 23
+          Position.X = 162.000000000000000000
+          Position.Y = 170.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect52: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Label41: TLabel
+          AutoSize = True
+          Position.X = 17.000000000000000000
+          Position.Y = 277.000000000000000000
+          Size.Width = 94.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Liq. Comisiones'
+        end
+        object EditLIMIT_ROWS_LIQ_COM: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 22
+          Position.X = 162.000000000000000000
+          Position.Y = 277.000000000000000000
+          Size.Width = 62.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          object GlowEffect53: TGlowEffect
+            Softness = 0.400000005960464500
+            GlowColor = claGray
+            Opacity = 0.899999976158142100
+            Enabled = False
+          end
+        end
+        object Text2: TText
+          Position.X = 240.000000000000000000
+          Position.Y = 22.000000000000000000
+          Size.Width = 233.000000000000000000
+          Size.Height = 179.000000000000000000
+          Size.PlatformDefault = False
+          Text = 
+            'L'#237'mite de l'#237'neas devueltas en las b'#250'squedas.  La b'#250'squeda se rea' +
+            'liza sobre el total de las l'#237'neas pero s'#243'lo se muestran y maneja' +
+            'n en pantalla hasta el m'#225'ximo aqu'#237' indicado. Si quiere evitar qu' +
+            'e se limite el n'#250'mero de resultados, debe insertar un valor -1 e' +
+            'n el campo correspondiente.'
+        end
+      end
+    end
+  end
+  object cdsConfigUser: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 527
+    Top = 89
+    object cdsConfigUserCD_CONFIG_USER: TIntegerField
+      FieldName = 'CD_CONFIG_USER'
+      Origin = 'CD_CONFIG_USER'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object cdsConfigUserDTT_MODIFY: TSQLTimeStampField
+      FieldName = 'DTT_MODIFY'
+      Origin = 'DTT_MODIFY'
+      Required = True
+    end
+    object cdsConfigUserCD_USER: TWideStringField
+      FieldName = 'CD_USER'
+      Origin = 'CD_USER'
+      Required = True
+      Size = 12
+    end
+    object cdsConfigUserSKIN_STYLE: TWideStringField
+      FieldName = 'SKIN_STYLE'
+      Origin = 'SKIN_STYLE'
+      Size = 50
+    end
+    object cdsConfigUserSMTP_ADDRESS: TWideStringField
+      FieldName = 'SMTP_ADDRESS'
+      Origin = 'SMTP_ADDRESS'
+      Size = 100
+    end
+    object cdsConfigUserSMTP_USERNAME: TWideStringField
+      FieldName = 'SMTP_USERNAME'
+      Origin = 'SMTP_USERNAME'
+      Size = 100
+    end
+    object cdsConfigUserSMTP_PASSWORD: TWideStringField
+      FieldName = 'SMTP_PASSWORD'
+      Origin = 'SMTP_PASSWORD'
+      Size = 50
+    end
+    object cdsConfigUserSMTP_PORT: TIntegerField
+      FieldName = 'SMTP_PORT'
+      Origin = 'SMTP_PORT'
+    end
+    object cdsConfigUserSMTP_TLS_SSL: TWideStringField
+      FieldName = 'SMTP_TLS_SSL'
+      Origin = 'SMTP_TLS_SSL'
+      Size = 1
+    end
+    object cdsConfigUserMAIL_FROM: TWideStringField
+      FieldName = 'MAIL_FROM'
+      Origin = 'MAIL_FROM'
+      Size = 100
+    end
+    object cdsConfigUserMAIL_CC: TWideStringField
+      FieldName = 'MAIL_CC'
+      Origin = 'MAIL_CC'
+      Size = 100
+    end
+    object cdsConfigUserSMTP_CHECKED: TWideStringField
+      FieldName = 'SMTP_CHECKED'
+      Origin = 'SMTP_CHECKED'
+      Required = True
+      Size = 1
+    end
+    object cdsConfigUserCD_SERIES_BDG_SLS: TWideStringField
+      FieldName = 'CD_SERIES_BDG_SLS'
+      Origin = 'CD_SERIES_BDG_SLS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_BDG_PRS: TWideStringField
+      FieldName = 'CD_SERIES_BDG_PRS'
+      Origin = 'CD_SERIES_BDG_PRS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_ORD_SLS: TWideStringField
+      FieldName = 'CD_SERIES_ORD_SLS'
+      Origin = 'CD_SERIES_ORD_SLS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_ORD_MNF: TWideStringField
+      FieldName = 'CD_SERIES_ORD_MNF'
+      Origin = 'CD_SERIES_ORD_MNF'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_ORD_PRS: TWideStringField
+      FieldName = 'CD_SERIES_ORD_PRS'
+      Origin = 'CD_SERIES_ORD_PRS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_DLN_SLS: TWideStringField
+      FieldName = 'CD_SERIES_DLN_SLS'
+      Origin = 'CD_SERIES_DLN_SLS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_DLN_PRS: TWideStringField
+      FieldName = 'CD_SERIES_DLN_PRS'
+      Origin = 'CD_SERIES_DLN_PRS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_INV_SLS: TWideStringField
+      FieldName = 'CD_SERIES_INV_SLS'
+      Origin = 'CD_SERIES_INV_SLS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_INV_PRS: TWideStringField
+      FieldName = 'CD_SERIES_INV_PRS'
+      Origin = 'CD_SERIES_INV_PRS'
+      Size = 3
+    end
+    object cdsConfigUserCD_SERIES_LIQ_COM: TWideStringField
+      FieldName = 'CD_SERIES_LIQ_COM'
+      Origin = 'CD_SERIES_LIQ_COM'
+      Size = 3
+    end
+    object cdsConfigUserBDG_PRS_SHOW_REPORTS: TWideStringField
+      FieldName = 'BDG_PRS_SHOW_REPORTS'
+      Origin = 'BDG_PRS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserBDG_PRS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'BDG_PRS_CD_REPORTGROUP'
+      Origin = 'BDG_PRS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserBDG_PRS_CD_REPORT: TWideStringField
+      FieldName = 'BDG_PRS_CD_REPORT'
+      Origin = 'BDG_PRS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserBDG_PRS_NM_COPIES: TIntegerField
+      FieldName = 'BDG_PRS_NM_COPIES'
+      Origin = 'BDG_PRS_NM_COPIES'
+    end
+    object cdsConfigUserBDG_SLS_SHOW_REPORTS: TWideStringField
+      FieldName = 'BDG_SLS_SHOW_REPORTS'
+      Origin = 'BDG_SLS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserBDG_SLS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'BDG_SLS_CD_REPORTGROUP'
+      Origin = 'BDG_SLS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserBDG_SLS_CD_REPORT: TWideStringField
+      FieldName = 'BDG_SLS_CD_REPORT'
+      Origin = 'BDG_SLS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserBDG_SLS_NM_COPIES: TIntegerField
+      FieldName = 'BDG_SLS_NM_COPIES'
+      Origin = 'BDG_SLS_NM_COPIES'
+    end
+    object cdsConfigUserORD_PRS_SHOW_REPORTS: TWideStringField
+      FieldName = 'ORD_PRS_SHOW_REPORTS'
+      Origin = 'ORD_PRS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserORD_PRS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'ORD_PRS_CD_REPORTGROUP'
+      Origin = 'ORD_PRS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserORD_PRS_CD_REPORT: TWideStringField
+      FieldName = 'ORD_PRS_CD_REPORT'
+      Origin = 'ORD_PRS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserORD_PRS_NM_COPIES: TIntegerField
+      FieldName = 'ORD_PRS_NM_COPIES'
+      Origin = 'ORD_PRS_NM_COPIES'
+    end
+    object cdsConfigUserORD_SLS_SHOW_REPORTS: TWideStringField
+      FieldName = 'ORD_SLS_SHOW_REPORTS'
+      Origin = 'ORD_SLS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserORD_SLS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'ORD_SLS_CD_REPORTGROUP'
+      Origin = 'ORD_SLS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserORD_SLS_CD_REPORT: TWideStringField
+      FieldName = 'ORD_SLS_CD_REPORT'
+      Origin = 'ORD_SLS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserORD_SLS_NM_COPIES: TIntegerField
+      FieldName = 'ORD_SLS_NM_COPIES'
+      Origin = 'ORD_SLS_NM_COPIES'
+    end
+    object cdsConfigUserORD_MNF_SHOW_REPORTS: TWideStringField
+      FieldName = 'ORD_MNF_SHOW_REPORTS'
+      Origin = 'ORD_MNF_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserORD_MNF_CD_REPORTGROUP: TWideStringField
+      FieldName = 'ORD_MNF_CD_REPORTGROUP'
+      Origin = 'ORD_MNF_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserORD_MNF_CD_REPORT: TWideStringField
+      FieldName = 'ORD_MNF_CD_REPORT'
+      Origin = 'ORD_MNF_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserORD_MNF_NM_COPIES: TIntegerField
+      FieldName = 'ORD_MNF_NM_COPIES'
+      Origin = 'ORD_MNF_NM_COPIES'
+    end
+    object cdsConfigUserDLN_PRS_SHOW_REPORTS: TWideStringField
+      FieldName = 'DLN_PRS_SHOW_REPORTS'
+      Origin = 'DLN_PRS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserDLN_PRS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'DLN_PRS_CD_REPORTGROUP'
+      Origin = 'DLN_PRS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserDLN_PRS_CD_REPORT: TWideStringField
+      FieldName = 'DLN_PRS_CD_REPORT'
+      Origin = 'DLN_PRS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserDLN_PRS_NM_COPIES: TIntegerField
+      FieldName = 'DLN_PRS_NM_COPIES'
+      Origin = 'DLN_PRS_NM_COPIES'
+    end
+    object cdsConfigUserDLN_SLS_SHOW_REPORTS: TWideStringField
+      FieldName = 'DLN_SLS_SHOW_REPORTS'
+      Origin = 'DLN_SLS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserDLN_SLS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'DLN_SLS_CD_REPORTGROUP'
+      Origin = 'DLN_SLS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserDLN_SLS_CD_REPORT: TWideStringField
+      FieldName = 'DLN_SLS_CD_REPORT'
+      Origin = 'DLN_SLS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserDLN_SLS_NM_COPIES: TIntegerField
+      FieldName = 'DLN_SLS_NM_COPIES'
+      Origin = 'DLN_SLS_NM_COPIES'
+    end
+    object cdsConfigUserINV_PRS_SHOW_REPORTS: TWideStringField
+      FieldName = 'INV_PRS_SHOW_REPORTS'
+      Origin = 'INV_PRS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserINV_PRS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'INV_PRS_CD_REPORTGROUP'
+      Origin = 'INV_PRS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserINV_PRS_CD_REPORT: TWideStringField
+      FieldName = 'INV_PRS_CD_REPORT'
+      Origin = 'INV_PRS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserINV_PRS_NM_COPIES: TIntegerField
+      FieldName = 'INV_PRS_NM_COPIES'
+      Origin = 'INV_PRS_NM_COPIES'
+    end
+    object cdsConfigUserINV_SLS_SHOW_REPORTS: TWideStringField
+      FieldName = 'INV_SLS_SHOW_REPORTS'
+      Origin = 'INV_SLS_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserINV_SLS_CD_REPORTGROUP: TWideStringField
+      FieldName = 'INV_SLS_CD_REPORTGROUP'
+      Origin = 'INV_SLS_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserINV_SLS_CD_REPORT: TWideStringField
+      FieldName = 'INV_SLS_CD_REPORT'
+      Origin = 'INV_SLS_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserINV_SLS_NM_COPIES: TIntegerField
+      FieldName = 'INV_SLS_NM_COPIES'
+      Origin = 'INV_SLS_NM_COPIES'
+    end
+    object cdsConfigUserLIQ_COM_SHOW_REPORTS: TWideStringField
+      FieldName = 'LIQ_COM_SHOW_REPORTS'
+      Origin = 'LIQ_COM_SHOW_REPORTS'
+      Size = 1
+    end
+    object cdsConfigUserLIQ_COM_CD_REPORTGROUP: TWideStringField
+      FieldName = 'LIQ_COM_CD_REPORTGROUP'
+      Origin = 'LIQ_COM_CD_REPORTGROUP'
+      Size = 25
+    end
+    object cdsConfigUserLIQ_COM_CD_REPORT: TWideStringField
+      FieldName = 'LIQ_COM_CD_REPORT'
+      Origin = 'LIQ_COM_CD_REPORT'
+      Size = 100
+    end
+    object cdsConfigUserLIQ_COM_NM_COPIES: TIntegerField
+      FieldName = 'LIQ_COM_NM_COPIES'
+      Origin = 'LIQ_COM_NM_COPIES'
+    end
+    object cdsConfigUserLIMIT_ROWS_CUSTOMERS: TIntegerField
+      FieldName = 'LIMIT_ROWS_CUSTOMERS'
+      Origin = 'LIMIT_ROWS_CUSTOMERS'
+    end
+    object cdsConfigUserLIMIT_ROWS_SUPPLIERS: TIntegerField
+      FieldName = 'LIMIT_ROWS_SUPPLIERS'
+      Origin = 'LIMIT_ROWS_SUPPLIERS'
+    end
+    object cdsConfigUserLIMIT_ROWS_ITEMS: TIntegerField
+      FieldName = 'LIMIT_ROWS_ITEMS'
+      Origin = 'LIMIT_ROWS_ITEMS'
+    end
+    object cdsConfigUserLIMIT_ROWS_BDG_SLS: TIntegerField
+      FieldName = 'LIMIT_ROWS_BDG_SLS'
+      Origin = 'LIMIT_ROWS_BDG_SLS'
+    end
+    object cdsConfigUserLIMIT_ROWS_BDG_PRS: TIntegerField
+      FieldName = 'LIMIT_ROWS_BDG_PRS'
+      Origin = 'LIMIT_ROWS_BDG_PRS'
+    end
+    object cdsConfigUserLIMIT_ROWS_ORD_SLS: TIntegerField
+      FieldName = 'LIMIT_ROWS_ORD_SLS'
+      Origin = 'LIMIT_ROWS_ORD_SLS'
+    end
+    object cdsConfigUserLIMIT_ROWS_ORD_MNF: TIntegerField
+      FieldName = 'LIMIT_ROWS_ORD_MNF'
+      Origin = 'LIMIT_ROWS_ORD_MNF'
+    end
+    object cdsConfigUserLIMIT_ROWS_ORD_PRS: TIntegerField
+      FieldName = 'LIMIT_ROWS_ORD_PRS'
+      Origin = 'LIMIT_ROWS_ORD_PRS'
+    end
+    object cdsConfigUserLIMIT_ROWS_DLN_SLS: TIntegerField
+      FieldName = 'LIMIT_ROWS_DLN_SLS'
+      Origin = 'LIMIT_ROWS_DLN_SLS'
+    end
+    object cdsConfigUserLIMIT_ROWS_DLN_PRS: TIntegerField
+      FieldName = 'LIMIT_ROWS_DLN_PRS'
+      Origin = 'LIMIT_ROWS_DLN_PRS'
+    end
+    object cdsConfigUserLIMIT_ROWS_INV_SLS: TIntegerField
+      FieldName = 'LIMIT_ROWS_INV_SLS'
+      Origin = 'LIMIT_ROWS_INV_SLS'
+    end
+    object cdsConfigUserLIMIT_ROWS_INV_PRS: TIntegerField
+      FieldName = 'LIMIT_ROWS_INV_PRS'
+      Origin = 'LIMIT_ROWS_INV_PRS'
+    end
+    object cdsConfigUserLIMIT_ROWS_LIQ_COM: TIntegerField
+      FieldName = 'LIMIT_ROWS_LIQ_COM'
+      Origin = 'LIMIT_ROWS_LIQ_COM'
+    end
+  end
+  object BindSourceDB: TBindSourceDB
+    DataSet = cdsConfigUser
+    ScopeMappings = <>
+    Left = 531
+    Top = 201
+  end
+  object BindingsList: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 527
+    Top = 150
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SMTP_TLS_SSL'
+      Control = EditSMTP_TLS_SSL
+      Track = False
+    end
+    object LinkControlToField4: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SMTP_ADDRESS'
+      Control = EditSMTP_ADDRESS
+      Track = False
+    end
+    object LinkControlToField9: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'MAIL_FROM'
+      Control = EditMAIL_FROM
+      Track = False
+    end
+    object LinkControlToField15: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SMTP_PORT'
+      Control = EditSMTP_PORT
+      Track = False
+    end
+    object LinkControlToField16: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SMTP_USERNAME'
+      Control = EditSMTP_USERNAME
+      Track = False
+    end
+    object LinkControlToField18: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SMTP_PASSWORD'
+      Control = EditSMTP_PASSWORD
+      Track = False
+    end
+    object LinkControlToField31: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'MAIL_CC'
+      Control = EditMAIL_CC
+      Track = False
+    end
+    object LinkPropertyToFieldBitmap: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'SMTP_CHECKED'
+      Component = ImageSMTP_CHECKED
+      CustomFormat = 'ToStr(%s) = "Y"'
+      ComponentProperty = 'Visible'
+    end
+    object LinkControlToField42: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_CUSTOMERS'
+      Control = EditLIMIT_ROWS_CUSTOMERS
+      Track = False
+    end
+    object LinkControlToField43: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_SUPPLIERS'
+      Control = EditLIMIT_ROWS_SUPPLIERS
+      Track = False
+    end
+    object LinkControlToField44: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_ITEMS'
+      Control = EditLIMIT_ROWS_ITEMS
+      Track = False
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_BDG_PRS'
+      Control = EditLIMIT_ROWS_BDG_PRS
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_ORD_SLS'
+      Control = EditLIMIT_ROWS_ORD_SLS
+      Track = False
+    end
+    object LinkControlToField5: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_ORD_MNF'
+      Control = EditLIMIT_ROWS_ORD_MNF
+      Track = False
+    end
+    object LinkControlToField6: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_ORD_PRS'
+      Control = EditLIMIT_ROWS_ORD_PRS
+      Track = False
+    end
+    object LinkControlToField7: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_DLN_SLS'
+      Control = EditLIMIT_ROWS_DLN_SLS
+      Track = False
+    end
+    object LinkControlToField8: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_DLN_PRS'
+      Control = EditLIMIT_ROWS_DLN_PRS
+      Track = False
+    end
+    object LinkControlToField10: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_INV_SLS'
+      Control = EditLIMIT_ROWS_INV_SLS
+      Track = False
+    end
+    object LinkControlToField11: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_INV_PRS'
+      Control = EditLIMIT_ROWS_INV_PRS
+      Track = False
+    end
+    object LinkControlToField13: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_BDG_SLS'
+      Control = EditLIMIT_ROWS_BDG_SLS
+      Track = False
+    end
+    object LinkControlToField14: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_BDG_PRS'
+      Control = EditCD_SERIE_BDG_PRS
+      Track = False
+    end
+    object LinkControlToField17: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_ORD_PRS'
+      Control = EditCD_SERIE_ORD_PRS
+      Track = False
+    end
+    object LinkControlToField19: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_INV_PRS'
+      Control = EditCD_SERIE_INV_PRS
+      Track = False
+    end
+    object LinkControlToField20: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_DLN_SLS'
+      Control = EditCD_SERIE_DLN_SLS
+      Track = False
+    end
+    object LinkControlToField21: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_BDG_SLS'
+      Control = EditCD_SERIE_BDG_SLS
+      Track = False
+    end
+    object LinkControlToField22: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_INV_SLS'
+      Control = EditCD_SERIE_INV_SLS
+      Track = False
+    end
+    object LinkControlToField23: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_DLN_PRS'
+      Control = EditCD_SERIE_DLN_PRS
+      Track = False
+    end
+    object LinkControlToField24: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_ORD_SLS'
+      Control = EditCD_SERIE_ORD_SLS
+      Track = False
+    end
+    object LinkControlToField25: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'CD_SERIES_ORD_MNF'
+      Control = EditCD_SERIE_ORD_MNF
+      Track = False
+    end
+    object LinkControlToField26: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DLN_PRS_CD_REPORTGROUP'
+      Control = CheckDLN_PRS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField27: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_SLS_SHOW_REPORTS'
+      Control = CheckORD_SLS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField28: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'BDG_SLS_SHOW_REPORTS'
+      Control = CheckBDG_SLS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField29: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'INV_SLS_SHOW_REPORTS'
+      Control = CheckINV_SLS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField30: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_PRS_SHOW_REPORTS'
+      Control = CheckORD_PRS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField32: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'BDG_PRS_SHOW_REPORTS'
+      Control = CheckBDG_PRS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField33: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'INV_PRS_SHOW_REPORTS'
+      Control = CheckINV_PRS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField34: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DLN_SLS_SHOW_REPORTS'
+      Control = CheckDLN_SLS_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField35: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_MNF_SHOW_REPORTS'
+      Control = CheckORD_MNF_SHOW_REPORTS
+      Track = True
+      CustomFormat = 'ToStr(%s) = "Y"'
+      CustomParse = 'IfThen(ToStr(%s) = "True", "Y", "N")'
+    end
+    object LinkControlToField37: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DLN_PRS_NM_COPIES'
+      Control = EditDLN_PRS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField38: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'INV_PRS_NM_COPIES'
+      Control = EditINV_PRS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField39: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'BDG_SLS_NM_COPIES'
+      Control = EditBDG_SLS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField36: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'BDG_PRS_NM_COPIES'
+      Control = EditBDG_PRS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField41: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_PRS_NM_COPIES'
+      Control = EditORD_PRS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField45: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DLN_SLS_NM_COPIES'
+      Control = EditDLN_SLS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField40: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_MNF_NM_COPIES'
+      Control = EditORD_MNF_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField46: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_SLS_NM_COPIES'
+      Control = EditORD_SLS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField47: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'INV_SLS_NM_COPIES'
+      Control = EditINV_SLS_NM_COPIES
+      Track = False
+    end
+    object LinkControlToField12: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'LIMIT_ROWS_LIQ_COM'
+      Control = EditLIMIT_ROWS_LIQ_COM
+      Track = False
+    end
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'BDG_PRS_CD_REPORT'
+      Control = ComboBoxBDG_PRS_CD_REPORT
+      Track = False
+      FillDataSource = BSReportsBDG_PRS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = False
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField2: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'BDG_SLS_CD_REPORT'
+      Control = ComboBoxBDG_SLS_CD_REPORT
+      Track = False
+      FillDataSource = BSReportsBDG_SLS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField3: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_PRS_CD_REPORT'
+      Control = ComboBoxORD_PRS_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsORD_PRS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField4: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_SLS_CD_REPORT'
+      Control = ComboBoxORD_SLS_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsORD_SLS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField5: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'ORD_MNF_CD_REPORT'
+      Control = ComboBoxORD_MNF_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsORD_MNF
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField6: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DLN_PRS_CD_REPORT'
+      Control = ComboBoxDLN_PRS_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsDLN_PRS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField7: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'DLN_SLS_CD_REPORT'
+      Control = ComboBoxDLN_SLS_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsDLN_SLS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField8: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'INV_PRS_CD_REPORT'
+      Control = ComboBoxINV_PRS_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsINV_PRS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkFillControlToField9: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB
+      FieldName = 'INV_SLS_CD_REPORT'
+      Control = ComboBoxINV_SLS_CD_REPORT
+      Track = True
+      FillDataSource = BSReportsINV_SLS
+      FillValueFieldName = 'CD_REPORT'
+      FillDisplayFieldName = 'DS_REPORT'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object BSReportsBDG_PRS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsBDG_PRS
+    ScopeMappings = <>
+    Left = 48
+    Top = 280
+  end
+  object BSReportsBDG_SLS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsBDG_SLS
+    ScopeMappings = <>
+    Left = 48
+    Top = 328
+  end
+  object BSReportsDLN_PRS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsDLN_PRS
+    ScopeMappings = <>
+    Left = 240
+    Top = 280
+  end
+  object BSReportsINV_PRS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsINV_PRS
+    ScopeMappings = <>
+    Left = 336
+    Top = 280
+  end
+  object BSReportsORD_PRS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsORD_PRS
+    ScopeMappings = <>
+    Left = 144
+    Top = 280
+  end
+  object BSReportsORD_SLS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsORD_SLS
+    ScopeMappings = <>
+    Left = 144
+    Top = 328
+  end
+  object BSReportsDLN_SLS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsDLN_SLS
+    ScopeMappings = <>
+    Left = 240
+    Top = 328
+  end
+  object BSReportsINV_SLS: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsINV_SLS
+    ScopeMappings = <>
+    Left = 336
+    Top = 328
+  end
+  object BSReportsORD_MNF: TBindSourceDB
+    DataSet = DataModuleConfigUser.QReportsORD_MNF
+    ScopeMappings = <>
+    Left = 96
+    Top = 216
+  end
+end
