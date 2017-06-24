@@ -38,6 +38,7 @@ object FormCustomView: TFormCustomView
       TextSettings.Font.Size = 13.000000000000000000
       TextSettings.Font.StyleExt = {00070000000000000004000000}
       TextSettings.FontColor = claBlue
+      TextSettings.Trimming = Character
     end
   end
 end
